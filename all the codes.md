@@ -21,7 +21,8 @@ git checkout branch_name #switch to branch
 git checkout -b branch_name #create new branch
 git merge
 git diff #see differences between branches
-git branch -d branch_name #delete branch
+git branch -d branch_name #delete branch, but only from local git, not from github as we are working inside a branch
+git push origin -d branch_name #delete branch from github
 
 git reset #undo changes which is done before committing
 git reset HEAD~1 #undo changes after already commited
