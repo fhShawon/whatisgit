@@ -23,6 +23,9 @@ git merge
 git diff #see differences between branches
 git branch -d branch_name #delete branch
 
+git reset #undo changes which is done before committing
+git reset HEAD~1 #undo changes after already commited
+
 #add ssh key to github profile
 ssh-keygen -t ed25519 -C "your_email@example.com"
 eval "$(ssh-agent -s)"
