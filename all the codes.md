@@ -5,9 +5,12 @@ git status #to know what changes have been made
 git add file_name #to update the files that will be committed
 git add . #to add all files to be commited
 git commit -m "message" -m "description" #message is must to commit
+git commit -a -m "message"
+git commit -am "message" #only works for modified file, not newly created files
 git push #push to github
 git push origin master #specify branch
 git push -u origin master #specify default branch u=upstream
+git pull #pull updated github repo to local machine
 
 git init #initialize git in any local folder
 git remote add origin github_link #add github repo to local folder
