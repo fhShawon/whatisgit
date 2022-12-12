@@ -21,6 +21,7 @@ git checkout branch_name #switch to branch
 git checkout -b branch_name #create new branch
 git merge
 git diff #see differences between branches
+git branch -d branch_name #delete branch
 
 #add ssh key to github profile
 ssh-keygen -t ed25519 -C "your_email@example.com"
