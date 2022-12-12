@@ -13,6 +13,9 @@ git init #initialize git in any local folder
 git remote add origin github_link #add github repo to local folder
 git remote -v #check connected github repo
 
+git branch #check the branches
+git checkout branch_name #move to branch
+git checkout -b branch_name #create new branch
 
 #add ssh key to github profile
 ssh-keygen -t ed25519 -C "your_email@example.com"
