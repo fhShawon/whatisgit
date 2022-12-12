@@ -1,4 +1,4 @@
-'''
+'''bash
 git clone repo-link
 ls -la #shows all the files including hidden ones
 git status #to know what changes have been made
