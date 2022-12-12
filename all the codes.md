@@ -25,6 +25,9 @@ git branch -d branch_name #delete branch
 
 git reset #undo changes which is done before committing
 git reset HEAD~1 #undo changes after already commited
+git log #show commit logs
+git reset commit_hash_from_log #unstage changes, just the opoosite of add, the code is there in file but not in git
+git reset --hard commit_hash_from_log #go back in time, the file changes as well as the git
 
 #add ssh key to github profile
 ssh-keygen -t ed25519 -C "your_email@example.com"
