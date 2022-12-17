@@ -19,6 +19,7 @@ git remote -v #check connected github repo
 git branch #check the branches
 git checkout branch_name #switch to branch
 git checkout -b branch_name #create new branch
+git branch -m branch_name #rename branch
 git merge
 git diff #see differences between branches
 git branch -d branch_name #delete branch, but only from local git, not from github as we are working inside a branch
