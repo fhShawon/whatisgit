@@ -1,4 +1,4 @@
-#Configuring git
+# Configuring git
 ```bash
 git config --global user.name "Your Name"
 ```
