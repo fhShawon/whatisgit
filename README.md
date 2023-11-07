@@ -4,13 +4,15 @@ learning about git and github
 cloned this repo to local machine using 
 added ssh keys
 
-# Website to download git
+# Download git
 https://git-scm.com
 https://gitforwindows.org
 
 # Configuring git
 ```bash
 git config --global user.name "Your Name"
+git config --global user.email "Your@Email" [same as github if you want to use that]
+git config --global core.editor "NameOfYourFavouriteEditor"
 ```
 
 ```bash
