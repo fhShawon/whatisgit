@@ -4,6 +4,10 @@ learning about git and github
 cloned this repo to local machine using 
 added ssh keys
 
+# Website to download git
+https://git-scm.com
+https://gitforwindows.com
+
 # Configuring git
 ```bash
 git config --global user.name "Your Name"
