@@ -33,18 +33,24 @@ git init #initialize git in any local folder
 git remote add origin github_link #add github repo to local folder
 git remote -v #check connected github repo
 
+git branch <branch_name> #create branch
 git branch #check the branches
 git checkout branch_name #switch to branch
 git checkout -b branch_name #create new branch
+git checkout HEAD~<commit_number_from_recent_one_iseqalto_1> <filename> #get that version of file
+git checkout HEAD <filename> #get the latest version of file
 git branch -m branch_name #rename branch
 git merge
 git diff #see differences between branches
+git diff --staged #see differences between files before commit
+git diff <first_7_character_of_a_log> <filename> #difference between current version and that version
 git branch -d branch_name #delete branch, but only from local git, not from github as we are working inside a branch
 git push origin -d branch_name #delete branch from github
 
 git reset #undo changes which is done before committing
 git reset HEAD~1 #undo changes after already commited
 git log #show commit logs
+git log -1 #show last commit log
 git reset commit_hash_from_log #unstage changes, just the opoosite of add, the code is there in file but not in git
 git reset --hard commit_hash_from_log #go back in time, the file changes as well as the git
 
