@@ -6,7 +6,7 @@ added ssh keys
 
 # Website to download git
 https://git-scm.com
-https://gitforwindows.com
+https://gitforwindows.org
 
 # Configuring git
 ```bash
