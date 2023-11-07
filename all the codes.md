@@ -1,3 +1,8 @@
+#Configuring git
+```bash
+git config --global user.name "Your Name"
+```
+
 ```bash
 git clone <repo-link>
 ls -la #shows all the files including hidden ones
