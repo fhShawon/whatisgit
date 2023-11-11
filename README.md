@@ -28,6 +28,7 @@ git push #push to github
 git push origin master #specify branch
 git push -u origin master #specify default branch u=upstream
 git pull #pull updated github repo to local machine
+git config --global core.autocrlf false #turn off the “LF will be replaced by CRLF” warning
 
 git init #initialize git in any local folder
 git remote add origin github_link #add github repo to local folder
