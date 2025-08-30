@@ -1,32 +1,45 @@
 # whatisgit
+
 learning about git and github
 
-cloned this repo to local machine using 
+cloned this repo to local machine using
 added ssh keys
 
 # Download git
+
 https://git-scm.com
+
 https://gitforwindows.org
 
 # Configuring git
+
+## Initiate
+
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "Your@Email" [same as github if you want to use that]
 git config --global core.editor "NameOfYourFavouriteEditor"
 ```
 
+## Clone > Branch > Add files > Commit > Push
+
 ```bash
 git clone <repo-link>
 ls -la #shows all the files including hidden ones
+cd <repo_name>
 git status #to know what changes have been made
-git add file_name #to update the files that will be committed
+git checkout -b branch_name #create & switch to new branch
+
+## make the changes
+
+git add file_name #to update the files that will be committed, or
 git add . #to add all files to be commited
-git commit -m "message" -m "description" #message is must to commit
+git commit -m "message" -m "body" #message is a must to commit. first -m is the commit subject, second -m adds a body to the commit message
 git commit -a -m "message"
 git commit -am "message" #only works for modified file, not newly created files
 git push #push to github
 git push origin master #specify branch
-git push -u origin master #specify default branch u=upstream
+git push -u origin master #specify default branch for uploading, u=upstream
 git pull #pull updated github repo to local machine
 git config --global core.autocrlf false #turn off the “LF will be replaced by CRLF” warning
 
@@ -37,7 +50,7 @@ git remote -v #check connected github repo
 git branch <branch_name> #create branch
 git branch #check the branches
 git checkout branch_name #switch to branch
-git checkout -b branch_name #create new branch
+git checkout -b branch_name #create & switch to new branch
 git checkout HEAD~<commit_number_from_recent_one_iseqalto_1> <filename> #get that version of file
 git checkout HEAD <filename> #get the latest version of file
 git branch -m branch_name #rename branch
