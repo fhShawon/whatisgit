@@ -60,6 +60,7 @@ git diff --staged #see differences between files before commit
 git diff <first_7_character_of_a_log> <filename> #difference between current version and that version
 git branch -d branch_name #delete branch, but only from local git, not from github as we are working inside a branch
 git push origin -d branch_name #delete branch from github
+git checkout <branch_name> <file_name> #copy file from any branch git checkout main my_libraries/chart_generator.py
 
 git reset #undo changes which is done before committing
 git reset HEAD~1 #undo changes after already commited
